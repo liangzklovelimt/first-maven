@@ -1,0 +1,9 @@
+stages:
+  - build_product
+
+build_product:
+  stage: build_product
+  only:
+      - master
+  script:
+    - /home/liangzk/auto.sh
